@@ -120,7 +120,7 @@ func (vw *verifyWorker) process() {
 				continue
 			}
 
-			request.Header.Add("User-Agent", "github.com/GeertJohan/yubigo")
+			request.Header.Add("User-Agent", "Yumechi/yubigo")
 
 			// Call server with cancel context
 			request = request.WithContext(w.ctx)
